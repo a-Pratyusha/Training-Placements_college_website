@@ -10,7 +10,7 @@ import Checkout from './components/Checkout'
 import Main3 from './components/Main3'
 import Footer from './components/Footer';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Registration from './components/Registration'
+
 import PastRecruiters from './components/PastRecruiters'
 function App() {
 
@@ -32,16 +32,7 @@ function App() {
           </>
         } />
 
-        <Route exact path="/register" element={
-          <>
-            <Registration />
-            <Marquee />
-            <Main1 />
-            <Main2 />
-            <Checkout />
-            <Main3 />
-          </>
-        } />
+       
       </Routes>
       <Footer />
     </Router>
